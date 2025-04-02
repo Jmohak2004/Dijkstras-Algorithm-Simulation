@@ -8,8 +8,15 @@ body {
   font-family: Arial, sans-serif;
   background-color: #1a202c;
   color: white;
+  font-size: large;
+  font-weight: bold;
 }
-
+.credits{
+  display:flex;
+  justify-content: center;
+  background-color: #1a202c;
+  color: rgb(13, 213, 26);
+}
 .container {
   display: flex;
   flex-direction: column;

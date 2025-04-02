@@ -479,7 +479,11 @@ function App() {
               </div>
             ))}
           </div>
+          <div className='credits'>
+            Made with Love by Mohak , Jeel & Kaustubh ❤️
+          </div>
         </div>
+        
       )}
     </div>
   );
