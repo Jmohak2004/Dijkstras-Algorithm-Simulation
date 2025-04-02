@@ -5,7 +5,9 @@ function App() {
   const [nodes, setNodes] = useState([]);
   const [edges, setEdges] = useState([]);
   const [numNodes, setNumNodes] = useState(5);
+
   const [source, setSource] = useState(0);
+  
   const [isRunning, setIsRunning] = useState(false);
   const [isCreatingEdge, setIsCreatingEdge] = useState(false);
   const [currentEdge, setCurrentEdge] = useState({ source: null, target: null });
